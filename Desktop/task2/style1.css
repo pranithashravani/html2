@@ -1,0 +1,219 @@
+.header /*header css*/
+{
+    text-align:center;
+    overflow:hidden;
+   
+    display:flex;
+    
+    justify-content:space-between;
+
+    background-color:BLACK;
+    width:1530px;
+    cursor:pointer;
+    position:fixed;
+    height:80px;
+    width:1530px;
+    background-size:cover;
+}
+
+
+
+.header a{
+    float:left;
+    text-align:center;
+    font-size:1em;
+    padding:12px;
+    color:WHITE;
+    text-decoration:none;
+    top:30px;
+    
+
+}
+
+.header-right{
+  position:fixed;
+  background-color:BLACK;
+  
+  position: absolute;
+margin-left:-700px;
+top:20px;
+right:200px;
+}
+
+/*nav bar css*/
+   nav a {
+    
+    color: black;
+    display:inline;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  /*Hover for header*/
+  nav a:hover {
+    background-color:rgb(107,202,226);
+  }
+ .icon
+ {
+position: absolute;
+
+    background-color:BLACK;
+     right:50px;
+
+ }
+ /*first section css*/
+ .section1
+ {
+     background:url("/home/pranitha/Desktop/s1.jpg");
+     background-repeat:no-repeat;
+     background-size:1530px 400px;
+    height:300px;
+     width:1520px;
+   margin-left:-10px;
+   
+ }
+ #s2
+ {
+  color:white;
+  
+  top:-100px;
+   margin-left:100px;
+ }
+ #service
+ {
+     font-family:Lato;
+     font-size:2em;
+     position:absolute;
+     margin-top:150px;
+     margin-left:200px;
+     color:yellow;
+     
+
+ }
+ /*css of grids,second section*/
+ .grid_4
+ {
+   margin-top:40px;
+   float:left;
+   width:470px;
+   margin-left:20px;
+   margin-right:10px;
+   WORD-SPACING:1.5PX;
+ }
+ .grid_container
+ {
+   background-color:white;
+   font-family:Gloria Hallelujah;
+   height:400px;
+   top:0px;
+ }
+ /*css of section 3*/
+.section4
+{
+  height:500px;
+  background-color:papayawhip;
+
+}
+#s4
+{
+  font-size:2em;
+  font-family:sans-serif;
+  margin-left:600px;
+ top:-200px;
+ padding-top:40px;
+}
+#s5
+{
+ 
+  font-family:Dosis;
+  margin-left:500px;
+  color:black;
+  font-size:1.5em;
+ 
+
+}
+/* css of section 4*/
+.section5
+{
+  height:1200px;
+  background-color:white;
+position:relative;
+
+}
+
+/*sec 4 icon*/
+#i1
+{
+  float:left;
+  padding-top:70px;
+}
+/*sec 4 description*/
+#s6,#s7
+{
+
+  float:left;
+ width:550px;
+  margin-left:200px;
+ 
+  font-family:Dosis;
+  
+  color:black;
+  font-size:1.5em;
+ 
+}
+/*sec 4 icon*/
+#i2
+{
+  float:right;
+  padding-top:200px;
+  
+}
+/*footer part*/
+.footer
+{
+  background:url("/home/pranitha/Desktop/foo.jpg");
+  height:300px;
+  width:1530px;
+}
+#ftr
+{
+  float:left;
+  margin-left:200px;
+  margin-top:150px;
+ 
+  color:white;
+  font-size:1em;
+  
+
+}
+/*icons ftr*/
+#side
+{
+  float:left;
+  margin-left:1300px;
+  margin-top:-50px;
+  border-spacing: 2em;
+  text-align:center;
+}
+
+
+/*grid 2 css*/
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background:url("/home/pranitha/Desktop/m1.jpg");
+  background-repeat:no-repeat;
+  background-size:1500px 600px;
+  padding: 20px;
+  height:500px;
+ }
+ .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  margin-top:30px;
+  font-family:Comfortaa;
+  word-spacing:5px;
+  font-size: 17px;
+  text-align: center;
+ }
