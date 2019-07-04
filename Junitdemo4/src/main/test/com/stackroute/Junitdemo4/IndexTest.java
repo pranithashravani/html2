@@ -24,6 +24,7 @@ public class IndexTest {
     }
 
     @Test
+    //giving the whole input as words
     public void testindex() {
         List<String> result=obj.occurences("se","she sells seashells by the seashore");
         List<String > h =new ArrayList<>();
@@ -34,6 +35,7 @@ public class IndexTest {
     }
     @Test
     public void testindexrepeat() {
+        //repeated words
         List<String> result=obj.occurences("Hi","Hi,Hi,Hi");
         List<String > h =new ArrayList<>();
         h.add("Found at: 0 - 1");
@@ -43,6 +45,7 @@ public class IndexTest {
     }
     @Test
     public void testindexnull() {
+        //checking null value
         List<String> result=obj.occurences(" ","she sells seashell");
         List<String > h =new ArrayList<>();
         h.add("Found at: 3 - 3");
@@ -52,6 +55,7 @@ public class IndexTest {
     }
     @Test
     public void testindexwrong() {
+        //checking with the wrong input
         List<String> result=obj.occurences("xyz","she sells seashell");
         List<String > h =new ArrayList<>();
 

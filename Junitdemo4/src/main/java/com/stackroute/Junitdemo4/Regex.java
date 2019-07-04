@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 public class Regex {
 
     public String regular(String str) {
+        //initialize at first the string to return
         String s1 = "Is Harry there?True";
         String s2 = "Is Harry there?False";
         String s=null;

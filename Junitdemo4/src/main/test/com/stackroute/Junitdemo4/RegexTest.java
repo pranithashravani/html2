@@ -46,18 +46,21 @@ public class RegexTest {
     @Test
     public void testregex4()
     {
+        //with the special characters
         String result=obj.regular("Harry@gmail.com");
         assertEquals("Is Harry there?True",result);
     }
     @Test
     public void testregex5()
     {
+        //with the digits included
         String result=obj.regular("harr4y");
         assertEquals("Is Harry there?False",result);
     }
     @Test
     public void testregex6()
     {
+        //using a null value
         String result=obj.regular(" ");
         assertNotEquals("Is Harry there?True",result);
     }

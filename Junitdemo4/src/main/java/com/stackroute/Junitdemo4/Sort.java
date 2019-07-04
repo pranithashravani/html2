@@ -7,6 +7,7 @@ public class Sort {
 
         String[] array = null;
         String[] another = str.split(" ");
+        //sorting by using an array and string array
         for (int i = 0; i < another.length; i++) {
             for (int j = i + 1; j < another.length; j++) {
                 if (another[i].compareTo(another[j]) > 0) {
@@ -17,6 +18,7 @@ public class Sort {
                 }
             }
         }
+        //returning the string array
         return another;
     }
 }

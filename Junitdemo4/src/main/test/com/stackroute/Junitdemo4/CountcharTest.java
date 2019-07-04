@@ -20,12 +20,14 @@ public class CountcharTest {
 }
 @Test
     public void testcount()
+        //giving a character
 {
     int result=obj.charcount("pranitha",'a');
     assertEquals(2,result);
 }
     @Test
     public void testcount1()
+            //giving a special character
     {
         int result=obj.charcount("pranitha",'@');
         assertEquals(0,result);

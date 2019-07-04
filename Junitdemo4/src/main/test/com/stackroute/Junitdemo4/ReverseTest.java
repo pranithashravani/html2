@@ -25,25 +25,25 @@ public class ReverseTest {
         assertEquals("I ma inarp",result);
     }
     @Test
-    public void testsort1()
+    public void testsortgiveninput()
     {
         String result=obj.rev("a quick brown fox jumps over the lazy dog");
         assertEquals("a kciuq nworb xof spmuj revo eht yzal god",result);
     }
     @Test
-    public void testsort2()
+    public void testsortwithnullvalue()
     {
         String result=obj.rev(" ");
         assertEquals("",result);
     }
     @Test
-    public void testsort3()
+    public void testsortwithnumber()
     {
         String result=obj.rev("567");
         assertEquals("765",result);
     }
     @Test
-    public void testsort4()
+    public void testsortwithspecialcharacters()
     {
         String result=obj.rev("hello@");
         assertEquals("@olleh",result);

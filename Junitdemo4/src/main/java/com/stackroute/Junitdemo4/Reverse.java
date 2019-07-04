@@ -3,7 +3,7 @@ package com.stackroute.Junitdemo4;
 public class Reverse {
     public String rev(String str)
     {
-        String reverse="";//emplty string
+        String reverse="";//empty string
         String[] another=str.split(" ");//split
         for(String i:another)
         {
